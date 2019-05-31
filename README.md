@@ -49,8 +49,8 @@ Things you may want to cover:
 ## messageテーブル
 |Column|Type|Options|
 |-----|----|-------|
-|text|text|
-|image|text|
+|text|string|
+|image|string|
 |user_id|integer|null: false, foreign_key:true|
 |group_id|integer|null: false, foreign_key:true|
 
