@@ -40,8 +40,6 @@ Things you may want to cover:
 |name|string|null: false|
 |email|string|null: false, unique: true|
 |encrypted_password|string|null: false, unique: true|
-|group_id|integer|null: false, foreign_key:true|
-|massage_id|integer|null: false, foreign_key: true|
 
 ### Association
 - has_many :users_groups
