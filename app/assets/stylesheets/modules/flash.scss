@@ -1,0 +1,13 @@
+.notification {
+  .notice {   /* flashオブジェクトによって生成されたキー */
+    background-color: $light_blue;
+    color: $white;
+    text-align: center;
+  }
+
+  .alert {   /* flashオブジェクトによって生成されたキー */
+    background-color: $alert_orange;
+    color: $white;
+    text-align: center;
+  }
+}
