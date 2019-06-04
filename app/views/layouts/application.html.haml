@@ -7,4 +7,5 @@
     = stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload'
     = javascript_include_tag 'application', 'data-turbolinks-track': 'reload'
   %body
+    = render 'layouts/notifications'   # 部分テンプレート化したフラッシュメッセージを表示させる
     = yield

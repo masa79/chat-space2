@@ -13,6 +13,7 @@ module ChatSpace2
       g.javascripts false
       g.helper false
       g.test_framework false
+      config.i18n.default_locale = :ja   # フラッシュメッセージを日本語化するための記述
     end
     # Settings in config/environments/* take precedence over those specified here.
     # Application configuration should go into files in config/initializers
