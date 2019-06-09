@@ -24,7 +24,7 @@
 
     .form
       = form_for [@group, @message] do |f|   # form_forの引数に@groupと@messageの2つを引数として渡している理由はmessagesのルーティングをgroupsにネストされているため
-        = f.text_field :content, class: 'form__message', placeholder: 'type a message'
+        = f.text_field :content, class: 'form__message', placeholder: 'type a message',  id: "new_message"
         .form__mask
           = f.label :image, class: 'form__mask__image' do
             = fa_icon 'picture-o', class: 'icon'
